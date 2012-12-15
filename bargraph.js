@@ -62,3 +62,12 @@ function createGraph($element) {
         
     }
 }
+
+$('document').ready(function() {
+    
+    createGraph($('#graph'));
+    
+    $('#button').click(graphIt);
+    
+    graphIt();
+});
