@@ -1,7 +1,7 @@
-bar-graph
+JavaScript Bar Graph
 =========
 
-Little project to make a dynamic bar graph. 
+Just a little project I did that allows you to easily create bar graphs. Feel free to do whatever you'd like with it!
 
 License
 =========
