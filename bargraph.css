@@ -1,3 +1,8 @@
+#graph, #button {
+    position: relative;
+    margin: 0 auto;
+}
+
 .inputBar {
     width:30px; 
     font-family:monospace;
