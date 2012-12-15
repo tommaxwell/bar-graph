@@ -1,4 +1,16 @@
-
+function barAdjuster(indexnum, element) {
+    
+    
+    var $this = $(element);
+    var value = parseInt($this.val(),10);
+    
+    var $coloredBar = $this.siblings().find('.coloredBar');
+    
+    var limitedWidth = $this.siblings('.borderBar').width();
+    var adjustedWidth = percentInput(value,limitedWidth);
+    barSet($bar,adjustedWidth);
+    
+}
 
 function percentInput(percentage,limitedWidth) {
 	if(isNaN(percentage)) {
@@ -14,21 +26,6 @@ function percentInput(percentage,limitedWidth) {
 
 function barSet($bar,adjustedWidth) {
     $bar.width(adjustedWidth);
-    
-}
-
-
-function barAdjuster(indexnum, element) {
-    
-    
-    var $this = $(element);
-    var value = parseInt($this.val(),10);
-    
-    var $coloredBar = $this.siblings().find('.coloredBar');
-    
-    var limitedWidth = $this.siblings('.borderBar').width();
-    var adjustedWidth = percentInput(value,limitedWidth);
-    barSet($bar,adjustedWidth);
     
 }
 
