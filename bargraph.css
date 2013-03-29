@@ -1,3 +1,7 @@
+body {
+    font-family:'Helvetica Neue', Arial, sans-serif;
+}
+
 #graph, #button {
     position: relative;
     margin: 0 auto;
@@ -5,27 +9,26 @@
 
 .inputBar {
     width:30px; 
-    font-family:'Helvetica Neue', Arial, sans-serif ;
-    font-size:1.5em;
     height:30px;
+    font-size:1.5em;
 }
 
 .borderBar {
     display: inline-block;
     width:600px;
     height:40px;
-    border-color:black;
-    border-width:1px;
+    border: 1px solid black;
     margin-left:15px;
 }
 
 .coloredBar {
     height: 100%;
     -moz-border-top-right-radius:2px;
-         border-top-right-radius:2px;
+    -webkit-border-top-right-radius:2px;
+    border-top-right-radius:2px;
     -moz-border-bottom-right-radius:2px;
-         border-bottom-right-radius:2px; 
-         height:100%;
+    -webkit-border-bottom-right-radius:2px;
+    border-bottom-right-radius:2px; 
     background-color:#000;  
 }
 
