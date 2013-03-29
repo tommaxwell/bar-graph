@@ -34,6 +34,6 @@ body {
 
 .coloredBar:hover {
     -webkit-box-shadow: 0px 0px 4px #FF6342;
-       -moz-box-shadow: 0px 0px 4px #FF6342;
-            box-shadow: 0px 0px 4px #FF6342; 
+    -moz-box-shadow: 0px 0px 4px #FF6342;
+    box-shadow: 0px 0px 4px #FF6342; 
 }
